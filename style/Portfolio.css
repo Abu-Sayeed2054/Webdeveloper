@@ -105,7 +105,67 @@ main{
 .about-info{
     text-align: center;
 }
-
+/* skill related style*/
 #what-l-do{
   padding: 15px 130px;
 }
+
+main section{
+    margin: 130px;
+}
+
+.skill-container{
+    display: flex;
+}
+
+.skill{
+    padding:30px;
+    gap:24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+
+}
+
+
+/*resume style shett*/
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 80px;
+}
+/*footer style link*/
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links{
+    margin-right:50px ;
+}
+
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 35px;
+    color:#757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+
+}
+
+
